@@ -1,0 +1,24 @@
+{
+  "originHash" : "92069057529233a775901a32e28b19d9275e3eb9af2b3ecd6330889191095f28",
+  "pins" : [
+    {
+      "identity" : "linknavigator",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/forXifLess/LinkNavigator",
+      "state" : {
+        "revision" : "06da03571b7cdd4bde6d58b07774aecf3475512e",
+        "version" : "1.2.5"
+      }
+    },
+    {
+      "identity" : "urlencodedform",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/interactord/URLEncodedForm",
+      "state" : {
+        "revision" : "5f51aa13d41b26fc8833cd040df3a3101768bb64",
+        "version" : "1.0.8"
+      }
+    }
+  ],
+  "version" : 3
+}
