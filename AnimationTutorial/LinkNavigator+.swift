@@ -6,4 +6,5 @@ typealias RootNavigatorType = LinkNavigatorProtocol & LinkNavigatorFindLocationU
 enum Link: String {
   case home
   case geometry1
+  case geometry1Detail
 }

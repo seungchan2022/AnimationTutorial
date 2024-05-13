@@ -18,6 +18,11 @@
 		EC5CB9112BF0EDD9001369C6 /* HomeRouteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CB9102BF0EDD9001369C6 /* HomeRouteBuilder.swift */; };
 		EC5CB9142BF0EF04001369C6 /* Geometry1Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CB9132BF0EF04001369C6 /* Geometry1Page.swift */; };
 		EC5CB9162BF0EF0B001369C6 /* Geometry1RouteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CB9152BF0EF0B001369C6 /* Geometry1RouteBuilder.swift */; };
+		ECB403F82BF24C3900292762 /* OffsetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB403F72BF24C3900292762 /* OffsetKey.swift */; };
+		ECB403FC2BF24C6A00292762 /* PicItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB403FB2BF24C6A00292762 /* PicItem.swift */; };
+		ECB403FE2BF24C7200292762 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB403FD2BF24C7200292762 /* Post.swift */; };
+		ECB404002BF24CB100292762 /* Geometry1DetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB403FF2BF24CB100292762 /* Geometry1DetailPage.swift */; };
+		ECB404022BF24CDD00292762 /* Geometry1DetailRouteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB404012BF24CDD00292762 /* Geometry1DetailRouteBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		EC5CB9102BF0EDD9001369C6 /* HomeRouteBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouteBuilder.swift; sourceTree = "<group>"; };
 		EC5CB9132BF0EF04001369C6 /* Geometry1Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry1Page.swift; sourceTree = "<group>"; };
 		EC5CB9152BF0EF0B001369C6 /* Geometry1RouteBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry1RouteBuilder.swift; sourceTree = "<group>"; };
+		ECB403F72BF24C3900292762 /* OffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetKey.swift; sourceTree = "<group>"; };
+		ECB403FB2BF24C6A00292762 /* PicItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicItem.swift; sourceTree = "<group>"; };
+		ECB403FD2BF24C7200292762 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		ECB403FF2BF24CB100292762 /* Geometry1DetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry1DetailPage.swift; sourceTree = "<group>"; };
+		ECB404012BF24CDD00292762 /* Geometry1DetailRouteBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry1DetailRouteBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +75,8 @@
 		EC5CB8F42BF0EC8E001369C6 /* AnimationTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				EC5CB90C2BF0EDC5001369C6 /* Page */,
+				EC5CB9122BF0EEF3001369C6 /* Geometry1 */,
+				EC5CB90D2BF0EDCF001369C6 /* Home */,
 				EC5CB8F52BF0EC8E001369C6 /* AppMain.swift */,
 				EC5CB9062BF0ECFB001369C6 /* RouteBuilderGroup.swift */,
 				EC5CB90A2BF0ED71001369C6 /* AppDependency.swift */,
@@ -87,8 +98,8 @@
 		EC5CB90C2BF0EDC5001369C6 /* Page */ = {
 			isa = PBXGroup;
 			children = (
-				EC5CB9122BF0EEF3001369C6 /* Geometry1 */,
-				EC5CB90D2BF0EDCF001369C6 /* Home */,
+				EC5CB9132BF0EF04001369C6 /* Geometry1Page.swift */,
+				ECB403FF2BF24CB100292762 /* Geometry1DetailPage.swift */,
 			);
 			path = Page;
 			sourceTree = "<group>";
@@ -105,10 +116,30 @@
 		EC5CB9122BF0EEF3001369C6 /* Geometry1 */ = {
 			isa = PBXGroup;
 			children = (
-				EC5CB9132BF0EF04001369C6 /* Geometry1Page.swift */,
+				EC5CB90C2BF0EDC5001369C6 /* Page */,
+				ECB403FA2BF24C4F00292762 /* Model */,
+				ECB403F62BF24C2B00292762 /* Helper */,
 				EC5CB9152BF0EF0B001369C6 /* Geometry1RouteBuilder.swift */,
+				ECB404012BF24CDD00292762 /* Geometry1DetailRouteBuilder.swift */,
 			);
 			path = Geometry1;
+			sourceTree = "<group>";
+		};
+		ECB403F62BF24C2B00292762 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				ECB403F72BF24C3900292762 /* OffsetKey.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		ECB403FA2BF24C4F00292762 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECB403FB2BF24C6A00292762 /* PicItem.swift */,
+				ECB403FD2BF24C7200292762 /* Post.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,11 +219,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC5CB9072BF0ECFB001369C6 /* RouteBuilderGroup.swift in Sources */,
+				ECB403FE2BF24C7200292762 /* Post.swift in Sources */,
 				EC5CB9162BF0EF0B001369C6 /* Geometry1RouteBuilder.swift in Sources */,
+				ECB404002BF24CB100292762 /* Geometry1DetailPage.swift in Sources */,
 				EC5CB9142BF0EF04001369C6 /* Geometry1Page.swift in Sources */,
+				ECB403FC2BF24C6A00292762 /* PicItem.swift in Sources */,
+				ECB404022BF24CDD00292762 /* Geometry1DetailRouteBuilder.swift in Sources */,
 				EC5CB90F2BF0EDD3001369C6 /* HomePage.swift in Sources */,
 				EC5CB90B2BF0ED71001369C6 /* AppDependency.swift in Sources */,
 				EC5CB8F62BF0EC8E001369C6 /* AppMain.swift in Sources */,
+				ECB403F82BF24C3900292762 /* OffsetKey.swift in Sources */,
 				EC5CB9092BF0ED11001369C6 /* LinkNavigator+.swift in Sources */,
 				EC5CB9112BF0EDD9001369C6 /* HomeRouteBuilder.swift in Sources */,
 			);

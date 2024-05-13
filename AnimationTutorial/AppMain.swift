@@ -10,7 +10,9 @@ struct AppMain: App {
     WindowGroup {
       LinkNavigationView(
         linkNavigator: navigator,
-        item: .init(path: Link.home.rawValue))
+        item: .init(path: Link.home.rawValue),
+      prefersLargeTitles: true)
+      
       .ignoresSafeArea()
     }
   
