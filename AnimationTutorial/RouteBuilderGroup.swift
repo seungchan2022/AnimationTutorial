@@ -10,6 +10,7 @@ extension RouteBuilderGroup {
       HomeRouteBuilder.generate(),
       Geometry1RouteBuilder.generate(),
       Geometry1DetailRouteBuilder.generate(),
+      Geometry2RouteBuilder.generate(),
     ]
   }
 }

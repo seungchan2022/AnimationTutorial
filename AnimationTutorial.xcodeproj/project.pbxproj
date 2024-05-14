@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC5579782BF3AD9A00215113 /* Geometry2Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5579772BF3AD9A00215113 /* Geometry2Page.swift */; };
+		EC55797A2BF3AD9F00215113 /* Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5579792BF3AD9F00215113 /* Today.swift */; };
+		EC55797C2BF3ADB900215113 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55797B2BF3ADB900215113 /* CustomCorner.swift */; };
+		EC55797E2BF3ADE200215113 /* Geometry2RouteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55797D2BF3ADE200215113 /* Geometry2RouteBuilder.swift */; };
 		EC5CB8F62BF0EC8E001369C6 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CB8F52BF0EC8E001369C6 /* AppMain.swift */; };
 		EC5CB8FA2BF0EC8E001369C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5CB8F92BF0EC8E001369C6 /* Assets.xcassets */; };
 		EC5CB8FD2BF0EC8E001369C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5CB8FC2BF0EC8E001369C6 /* Preview Assets.xcassets */; };
@@ -26,6 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC5579772BF3AD9A00215113 /* Geometry2Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry2Page.swift; sourceTree = "<group>"; };
+		EC5579792BF3AD9F00215113 /* Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Today.swift; sourceTree = "<group>"; };
+		EC55797B2BF3ADB900215113 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
+		EC55797D2BF3ADE200215113 /* Geometry2RouteBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry2RouteBuilder.swift; sourceTree = "<group>"; };
 		EC5CB8F22BF0EC8E001369C6 /* AnimationTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5CB8F52BF0EC8E001369C6 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		EC5CB8F92BF0EC8E001369C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +64,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC5579742BF3AD7300215113 /* Geometry2 */ = {
+			isa = PBXGroup;
+			children = (
+				EC5579762BF3AD8400215113 /* Page */,
+				EC5579752BF3AD7D00215113 /* Model */,
+				EC55797D2BF3ADE200215113 /* Geometry2RouteBuilder.swift */,
+			);
+			path = Geometry2;
+			sourceTree = "<group>";
+		};
+		EC5579752BF3AD7D00215113 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC5579792BF3AD9F00215113 /* Today.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC5579762BF3AD8400215113 /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				EC5579772BF3AD9A00215113 /* Geometry2Page.swift */,
+				EC55797B2BF3ADB900215113 /* CustomCorner.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
 		EC5CB8E92BF0EC8E001369C6 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +110,7 @@
 		EC5CB8F42BF0EC8E001369C6 /* AnimationTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				EC5579742BF3AD7300215113 /* Geometry2 */,
 				EC5CB9122BF0EEF3001369C6 /* Geometry1 */,
 				EC5CB90D2BF0EDCF001369C6 /* Home */,
 				EC5CB8F52BF0EC8E001369C6 /* AppMain.swift */,
@@ -219,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC5CB9072BF0ECFB001369C6 /* RouteBuilderGroup.swift in Sources */,
+				EC55797C2BF3ADB900215113 /* CustomCorner.swift in Sources */,
+				EC55797A2BF3AD9F00215113 /* Today.swift in Sources */,
 				ECB403FE2BF24C7200292762 /* Post.swift in Sources */,
 				EC5CB9162BF0EF0B001369C6 /* Geometry1RouteBuilder.swift in Sources */,
 				ECB404002BF24CB100292762 /* Geometry1DetailPage.swift in Sources */,
@@ -229,7 +267,9 @@
 				EC5CB90B2BF0ED71001369C6 /* AppDependency.swift in Sources */,
 				EC5CB8F62BF0EC8E001369C6 /* AppMain.swift in Sources */,
 				ECB403F82BF24C3900292762 /* OffsetKey.swift in Sources */,
+				EC5579782BF3AD9A00215113 /* Geometry2Page.swift in Sources */,
 				EC5CB9092BF0ED11001369C6 /* LinkNavigator+.swift in Sources */,
+				EC55797E2BF3ADE200215113 /* Geometry2RouteBuilder.swift in Sources */,
 				EC5CB9112BF0EDD9001369C6 /* HomeRouteBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,4 +7,5 @@ enum Link: String {
   case home
   case geometry1
   case geometry1Detail
+  case geometry2
 }
