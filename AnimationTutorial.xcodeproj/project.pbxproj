@@ -11,6 +11,9 @@
 		EC55797A2BF3AD9F00215113 /* Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5579792BF3AD9F00215113 /* Today.swift */; };
 		EC55797C2BF3ADB900215113 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55797B2BF3ADB900215113 /* CustomCorner.swift */; };
 		EC55797E2BF3ADE200215113 /* Geometry2RouteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55797D2BF3ADE200215113 /* Geometry2RouteBuilder.swift */; };
+		EC55798B2BF5B2B900215113 /* TripCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55798A2BF5B2B900215113 /* TripCard.swift */; };
+		EC55798D2BF5B2C900215113 /* Geometry3Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55798C2BF5B2C900215113 /* Geometry3Page.swift */; };
+		EC55798F2BF5B2E800215113 /* Geometry3RouteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55798E2BF5B2E800215113 /* Geometry3RouteBuilder.swift */; };
 		EC5CB8F62BF0EC8E001369C6 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5CB8F52BF0EC8E001369C6 /* AppMain.swift */; };
 		EC5CB8FA2BF0EC8E001369C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5CB8F92BF0EC8E001369C6 /* Assets.xcassets */; };
 		EC5CB8FD2BF0EC8E001369C6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5CB8FC2BF0EC8E001369C6 /* Preview Assets.xcassets */; };
@@ -34,6 +37,9 @@
 		EC5579792BF3AD9F00215113 /* Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Today.swift; sourceTree = "<group>"; };
 		EC55797B2BF3ADB900215113 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
 		EC55797D2BF3ADE200215113 /* Geometry2RouteBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry2RouteBuilder.swift; sourceTree = "<group>"; };
+		EC55798A2BF5B2B900215113 /* TripCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCard.swift; sourceTree = "<group>"; };
+		EC55798C2BF5B2C900215113 /* Geometry3Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry3Page.swift; sourceTree = "<group>"; };
+		EC55798E2BF5B2E800215113 /* Geometry3RouteBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry3RouteBuilder.swift; sourceTree = "<group>"; };
 		EC5CB8F22BF0EC8E001369C6 /* AnimationTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5CB8F52BF0EC8E001369C6 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		EC5CB8F92BF0EC8E001369C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,6 +97,32 @@
 			path = Page;
 			sourceTree = "<group>";
 		};
+		EC5579862BF5B29E00215113 /* Geometry3 */ = {
+			isa = PBXGroup;
+			children = (
+				EC5579892BF5B2B200215113 /* Model */,
+				EC5579882BF5B2AE00215113 /* View */,
+				EC55798E2BF5B2E800215113 /* Geometry3RouteBuilder.swift */,
+			);
+			path = Geometry3;
+			sourceTree = "<group>";
+		};
+		EC5579882BF5B2AE00215113 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC55798C2BF5B2C900215113 /* Geometry3Page.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC5579892BF5B2B200215113 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC55798A2BF5B2B900215113 /* TripCard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		EC5CB8E92BF0EC8E001369C6 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +142,7 @@
 		EC5CB8F42BF0EC8E001369C6 /* AnimationTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				EC5579862BF5B29E00215113 /* Geometry3 */,
 				EC5579742BF3AD7300215113 /* Geometry2 */,
 				EC5CB9122BF0EEF3001369C6 /* Geometry1 */,
 				EC5CB90D2BF0EDCF001369C6 /* Home */,
@@ -259,7 +292,10 @@
 				EC55797A2BF3AD9F00215113 /* Today.swift in Sources */,
 				ECB403FE2BF24C7200292762 /* Post.swift in Sources */,
 				EC5CB9162BF0EF0B001369C6 /* Geometry1RouteBuilder.swift in Sources */,
+				EC55798D2BF5B2C900215113 /* Geometry3Page.swift in Sources */,
 				ECB404002BF24CB100292762 /* Geometry1DetailPage.swift in Sources */,
+				EC55798F2BF5B2E800215113 /* Geometry3RouteBuilder.swift in Sources */,
+				EC55798B2BF5B2B900215113 /* TripCard.swift in Sources */,
 				EC5CB9142BF0EF04001369C6 /* Geometry1Page.swift in Sources */,
 				ECB403FC2BF24C6A00292762 /* PicItem.swift in Sources */,
 				ECB404022BF24CDD00292762 /* Geometry1DetailRouteBuilder.swift in Sources */,
