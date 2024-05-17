@@ -32,6 +32,14 @@ extension HomePage: View {
       {
         Text("Geometry 3")
       }
+      
+      Button(action: {
+        navigator.backOrNext(
+          linkItem: .init(path: Link.geometry4.rawValue),
+          isAnimated: true) })
+      {
+        Text("Geometry 4")
+      }
     }
     .navigationTitle("Home")
   }

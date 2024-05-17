@@ -9,4 +9,5 @@ enum Link: String {
   case geometry1Detail
   case geometry2
   case geometry3
+  case geometry4
 }
