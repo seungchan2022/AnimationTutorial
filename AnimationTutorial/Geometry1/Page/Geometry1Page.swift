@@ -142,6 +142,8 @@ extension Geometry1Page: View {
         }
         .safeAreaPadding(15)
       }
+      .toolbar(isShowDetail ? .hidden : .visible, for: .navigationBar)
+      .navigationBarTitleDisplayMode(.inline)
       .navigationTitle("Animation")
     }
     .overlay {

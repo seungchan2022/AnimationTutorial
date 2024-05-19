@@ -10,6 +10,9 @@
 		EC53027D2BF6F1A100F00EF7 /* Geometry4Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53027C2BF6F1A100F00EF7 /* Geometry4Page.swift */; };
 		EC53027F2BF6F1A600F00EF7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53027E2BF6F1A600F00EF7 /* Item.swift */; };
 		EC5302812BF6F1DD00F00EF7 /* Geometry4RouteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5302802BF6F1DD00F00EF7 /* Geometry4RouteBuilder.swift */; };
+		EC5302882BF703F900F00EF7 /* ThemeChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5302872BF703F900F00EF7 /* ThemeChangeView.swift */; };
+		EC53028A2BF7041C00F00EF7 /* Geometry5Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5302892BF7041C00F00EF7 /* Geometry5Page.swift */; };
+		EC53028C2BF7044900F00EF7 /* Geometry5RouteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC53028B2BF7044900F00EF7 /* Geometry5RouteBuilder.swift */; };
 		EC5579782BF3AD9A00215113 /* Geometry2Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5579772BF3AD9A00215113 /* Geometry2Page.swift */; };
 		EC55797A2BF3AD9F00215113 /* Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5579792BF3AD9F00215113 /* Today.swift */; };
 		EC55797C2BF3ADB900215113 /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC55797B2BF3ADB900215113 /* CustomCorner.swift */; };
@@ -39,6 +42,9 @@
 		EC53027C2BF6F1A100F00EF7 /* Geometry4Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry4Page.swift; sourceTree = "<group>"; };
 		EC53027E2BF6F1A600F00EF7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		EC5302802BF6F1DD00F00EF7 /* Geometry4RouteBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry4RouteBuilder.swift; sourceTree = "<group>"; };
+		EC5302872BF703F900F00EF7 /* ThemeChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeChangeView.swift; sourceTree = "<group>"; };
+		EC5302892BF7041C00F00EF7 /* Geometry5Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry5Page.swift; sourceTree = "<group>"; };
+		EC53028B2BF7044900F00EF7 /* Geometry5RouteBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry5RouteBuilder.swift; sourceTree = "<group>"; };
 		EC5579772BF3AD9A00215113 /* Geometry2Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry2Page.swift; sourceTree = "<group>"; };
 		EC5579792BF3AD9F00215113 /* Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Today.swift; sourceTree = "<group>"; };
 		EC55797B2BF3ADB900215113 /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
@@ -100,6 +106,24 @@
 				EC53027C2BF6F1A100F00EF7 /* Geometry4Page.swift */,
 			);
 			path = Page;
+			sourceTree = "<group>";
+		};
+		EC5302852BF703DD00F00EF7 /* Geometry5 */ = {
+			isa = PBXGroup;
+			children = (
+				EC5302862BF703E700F00EF7 /* Helpers */,
+				EC5302892BF7041C00F00EF7 /* Geometry5Page.swift */,
+				EC53028B2BF7044900F00EF7 /* Geometry5RouteBuilder.swift */,
+			);
+			path = Geometry5;
+			sourceTree = "<group>";
+		};
+		EC5302862BF703E700F00EF7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EC5302872BF703F900F00EF7 /* ThemeChangeView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		EC5579742BF3AD7300215113 /* Geometry2 */ = {
@@ -174,6 +198,7 @@
 		EC5CB8F42BF0EC8E001369C6 /* AnimationTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				EC5302852BF703DD00F00EF7 /* Geometry5 */,
 				EC5302792BF6F17A00F00EF7 /* Geometry4 */,
 				EC5579862BF5B29E00215113 /* Geometry3 */,
 				EC5579742BF3AD7300215113 /* Geometry2 */,
@@ -332,9 +357,12 @@
 				EC55798B2BF5B2B900215113 /* TripCard.swift in Sources */,
 				EC5CB9142BF0EF04001369C6 /* Geometry1Page.swift in Sources */,
 				ECB403FC2BF24C6A00292762 /* PicItem.swift in Sources */,
+				EC5302882BF703F900F00EF7 /* ThemeChangeView.swift in Sources */,
 				ECB404022BF24CDD00292762 /* Geometry1DetailRouteBuilder.swift in Sources */,
 				EC5CB90F2BF0EDD3001369C6 /* HomePage.swift in Sources */,
 				EC5CB90B2BF0ED71001369C6 /* AppDependency.swift in Sources */,
+				EC53028A2BF7041C00F00EF7 /* Geometry5Page.swift in Sources */,
+				EC53028C2BF7044900F00EF7 /* Geometry5RouteBuilder.swift in Sources */,
 				EC5CB8F62BF0EC8E001369C6 /* AppMain.swift in Sources */,
 				ECB403F82BF24C3900292762 /* OffsetKey.swift in Sources */,
 				EC5579782BF3AD9A00215113 /* Geometry2Page.swift in Sources */,

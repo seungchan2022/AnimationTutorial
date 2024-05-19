@@ -146,7 +146,10 @@ extension Geometry2Page: View {
       }
       .padding(.vertical)
     }
-    .toolbar(.hidden, for: .navigationBar)
+    .toolbar(isShowDetail ? .hidden : .visible, for: .navigationBar)
+    .navigationBarTitleDisplayMode(.inline)
+    .navigationTitle("")
+
     .overlay {
       if let currentItem = currentItem, isShowDetail {
         DetailView(item: currentItem)
